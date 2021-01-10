@@ -1,0 +1,303 @@
+#alert_banner { 
+   width: 100%; 
+   height: 58px;
+   padding: 10px 0 0 0;
+   background: rgb(245,245,245);
+   margin: 96px 0 0 0; 
+}
+
+#alert_banner div {text-align: center;}
+#alert_banner p {font-size: 14px; line-height: 14px;}
+#alert_banner a {font-size: 12px; line-height: 12px; text-decoration: underline;}
+
+#hero { width: 100%; height: auto; padding: 0 56px; }
+
+.hero_wrap { width: 100%; height: 900px; background: url(../img/nike-just-do-it.jpg) center center no-repeat;
+background-size: cover; position: relative; top:0; left:0;}
+
+.hero_wrap figure {display: none;}
+
+.hero_wrap_title {position: absolute; left:36px; bottom:36px; }
+
+.hero_wrap_title h2 { font-family: 'Nike Futura'; font-size: 72px; line-height: 60px; color:white; text-transform: uppercase;}
+
+.hero_wrap_title p { color:white; margin: 8px 0 18px; }
+
+.hero_wrap_title button { width:86px; height: 40px; background: white; color:rgb(17,17,17); border:none; border-radius: 20px; cursor: pointer;}
+
+
+/* 섹션 Trending */
+
+#trending { width: 100%; height: auto; padding: 84px 56px 0;  }
+
+.trending_wrap { width: 100%; height: auto; }
+
+.trending_wrap h2 {margin: 0 0 24px;}
+
+.trending_ul { width: 100%;  display: flex; justify-content: space-between;  }
+
+.trending_ul li { width: calc(50% - 8px);  height:700px;   position: relative;  }
+
+.trending_ul li:nth-child(1) { 
+   background: url(../img/trending_1.jpg) center center no-repeat; background-size: cover;
+}
+
+.trending_ul li:nth-child(2) { 
+   background: url(../img/trending_2.jpg) center center no-repeat; background-size: cover;
+}
+
+
+.trending_li_title {  position: absolute; left:36px; bottom: 36px; color:white;}
+
+.trending_li_title p {margin: 0 0 20px; font-size: 20px; line-height: 24px;}
+
+.button_white {  width:86px; height: 40px; background: white; color:rgb(17,17,17); border:none; border-radius: 20px; cursor: pointer; margin: 6px 6px 0 0 ; }
+
+
+/* 섹션 Footwear */
+
+#footwear { width: 100%;  padding: 84px 0 0;  }
+
+.footwear_wrap { width: 100%; height: auto; }
+
+.footwear_wrap h2 {margin: 0 56px 24px;}
+
+/* .footwear_wrap h2 span {display: block;} */
+.footwear_ul_scroll {width: 100%; overflow-x: scroll; padding-bottom: 30px;}
+.footwear_ul { width: 300%;  display: flex;   }
+
+.footwear_ul li { width:30vw; position: relative; margin: 0 16px 0 0; height: auto; }
+
+.footwear_ul li:first-child {margin: 0 16px 0 56px;}
+.footwear_ul li:last-child {margin: 0;}
+
+.footwear_ul li img { width: 100%;}
+
+.footwear_ul li div {margin: 12px 0 0 0; font-size: 16px; line-height: 24px; display: flex; justify-content: space-between; padding:0 16px 0 0;}
+
+.footwear_ul li div p span {display: block;}
+.footwear_ul li div p span:first-child {  color:rgb(17,17,17);} 
+.footwear_ul li div p span:last-child {
+   color:rgb(117,117,117);} 
+
+
+
+/* 섹션 Basketball */
+
+#basketball { width: 100%; height: auto; padding: 84px 56px 0;  }
+
+.basketball_wrap { width: 100%; height: auto; }
+
+.basketball_wrap h2 {margin: 0 0 24px;}
+
+.basketball_ul { width: 100%;  display: flex; justify-content: space-between;  }
+
+.basketball_ul li { width: calc(50% - 8px);  height:700px;   position: relative;  }
+
+.basketball_ul li:nth-child(1) { 
+   background: url(../img/basketball1.jpg) center center no-repeat; background-size: cover;
+}
+
+.basketball_ul li:nth-child(2) { 
+   background: url(../img/basketball2.jpg) center center no-repeat; background-size: cover;
+}
+
+
+.basketball_li_title {  position: absolute; left:36px; bottom: 36px; color:white;}
+
+.basketball_li_title p {margin: 0 0 20px; font-size: 20px; line-height: 24px;}
+
+.button_white {  width:86px; height: 40px; background: white; color:rgb(17,17,17); border:none; border-radius: 20px; cursor: pointer; margin: 6px 6px 0 0 ; }
+
+
+/* Toppick 섹션 */
+
+#toppick { width: 100%; height: auto; padding: 84px 0 0;}
+
+.toppick_wrap { width: 100%; height: auto; }
+
+.toppick_wrap h2 {margin: 0 0 24px 56px;}
+.toppick_ul_scroll { width: 100%; padding: 0 48px;}
+.toppick_ul { width: 100%;  display: flex; justify-content: space-between;  }
+
+.toppick_ul li { width:33.333333%;  height:auto;  padding: 0 8px;  position: relative;  }
+
+.toppick_ul li img {width: 100%;}
+
+.toppick_ul li p { margin: 16px 0 0 0; font-weight: 400;}
+
+#membership { width: 100%; height: auto; padding: 84px 56px 0;}
+
+.membership_wrap { width: 100%; height: 500px; text-align: center; }
+.membership_wrap a {width: 100%; height: 100%; display: block; background: url(../img/membership_large.jpg) no-repeat center center; background-size: cover; box-sizing: border-box;}
+.membership_button { text-align: center; padding: 420px 0 0 0;}
+.button_black { width:112px; height: 40px; color: white; background:rgb(17,17,17); border:none; border-radius: 20px; cursor: pointer; margin: 6px 6px 0 0 ;
+font-size: 16px; }
+
+/* MenuLink 섹션 */
+
+#menulink { width: 100%; height: auto; padding: 84px 56px 40px;  }
+
+.menulink_wrap { width: 880px; max-height: 180px; overflow-y: hidden; margin: 0 auto; display: flex; justify-content: space-between; transition: max-height 0.4s; }
+
+.menulink_wrap:hover { max-height: 1200px;    }
+
+.menulink_ul { width: 184px;}
+.menulink_ul li { margin: 0 0 12px;}
+.menulink_ul li:first-child { color:rgb(17,17,17); font-weight: 600; margin: 0 0 24px;}
+.menulink_ul li a { color:rgb(117,117,117);}
+
+
+
+
+
+
+
+/* 모바일 반응형 CSS */
+
+@media screen and (max-width:1023px) {
+
+   #alert_banner { 
+     margin: 60px 0 0 0; 
+   }
+
+   #hero { padding: 0 20px;}
+   .hero_wrap { height: 700px;}
+
+   #trending { padding: 84px 20px 0 ; }
+
+   .trending_ul li { height:500px; }
+
+   
+   .footwear_ul_scroll {width: 100%; overflow-x: scroll; padding-bottom: 30px;}
+
+   .footwear_ul { width: 3098px;}
+   .footwear_ul li { width:330px; position: relative; margin: 0 16px 0 0;  }
+
+   .footwear_ul li:first-child {margin: 0 16px 0 20px;}
+
+   #basketball { padding: 84px 20px 0 ; }
+
+   .basketball_ul li { height:500px; }
+  
+   #toppick { padding: 84px 0px 0 ; }
+   .toppick_wrap h2 {margin: 0 0 24px 20px;}
+   .toppick_ul_scroll { width: 100%; padding: 0; overflow: scroll;}
+
+   .toppick_ul li { width:346px; }
+   .toppick_ul li img { width:330px; }
+
+   .toppick_ul li:first-child { margin: 0 0 0 12px; }
+
+
+   #menulink { width: 100%; height: auto; padding: 84px 20px 40px;  }
+
+   .menulink_wrap { width: 100%; max-height: 180px; overflow-y: hidden; margin: 0 auto; display: flex; justify-content: space-between; transition: max-height 0.4s; }
+   .menulink_wrap:hover { max-height: 1200px;    }
+
+   .menulink_ul { width: 25%;}
+
+   .menulink_ul li {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+   }
+
+}
+   
+
+
+
+@media screen and (max-width:639px) {
+
+   .hero_wrap { background: none;}
+
+   .hero_wrap figure {display: block; background:url(../img/nike-just-do-it.jpg) no-repeat center center; background-size: cover; width: 100%; height: 500px; }
+
+   .hero_wrap_title {position: static; margin: 18px 0 0 0;}
+
+   .hero_wrap_title h2 { font-size: 48px; line-height: 40px; color:rgb(17,17,17); }
+
+   .hero_wrap_title h2 br {display: none;}
+
+   .hero_wrap_title p { color:rgb(17,17,17); margin: 8px 0 18px; }
+
+   .hero_wrap_title button { width:94px; background: rgb(17,17,17); color:white; border:none; border-radius: 20px; cursor: pointer;}
+
+   #hero { padding: 0 20px;}
+   .hero_wrap { height: 700px;}
+
+   #trending { padding: 84px 20px 0 ; }
+   
+   .trending_ul { height:auto; flex-wrap: wrap;
+    }
+   .trending_ul li {width: 100%; height:500px; margin: 0 0 8px 0; }
+
+   .trending_li_title { left:24px; bottom: 24px; color:rgb(17,17,17); }
+
+   .trending_li_title button { background:rgb(17,17,17); color:white;}
+
+   .trending_ul li:nth-child(1) { 
+      background: url(../img/trending_1_m.jpg) center center no-repeat; background-size: cover;
+   }
+   
+   .trending_ul li:nth-child(2) { 
+      background: url(../img/trending_2_m.jpg) center center no-repeat; background-size: cover;
+   }
+
+   .footwear_ul { width: 2828px;}
+
+   .footwear_ul li { width:300px; position: relative; margin: 0 16px 0 0;  }
+
+   .footwear_ul li div {margin: 12px 0 0 0; font-size: 16px; line-height: 24px; display: flex; justify-content: space-between; padding:0 16px 0 0;
+   flex-direction: column;}
+
+
+   #basketball { padding: 84px 20px 0 ; }
+   
+   .basketball_ul { height:auto; flex-wrap: wrap;
+    }
+   .basketball_ul li {width: 100%; height:500px; margin: 0 0 8px 0; }
+
+   .basketball_li_title { left:24px; bottom: 24px;  }
+
+   #toppick { padding: 84px 0px 0 ; }
+   .toppick_wrap h2 {margin: 0 0 24px 20px;}
+   .toppick_ul_scroll { width: 100%; padding: 0; overflow: scroll;}
+
+   .toppick_ul li { width:316px; }
+   .toppick_ul li img { width:300px; }
+
+   .toppick_ul li:first-child { margin: 0 0 0 12px; }
+
+   #membership { width: 100%; height: auto; padding: 84px 20px 0;}
+   .membership_wrap a {width: 100%; height: 100%; display: block; background: url(../img/membership_m.jpg) no-repeat center center; background-size: cover; box-sizing: border-box;}
+
+  .membership_button { text-align: left; padding: 420px 0 0 30px;}
+
+
+  #menulink { width: 100%; height: auto; padding: 84px 20px 40px;  }
+
+  .menulink_wrap { width: 100%; max-height: 1800px; overflow-y: hidden; margin: 0 auto; display: flex; justify-content: space-between; flex-wrap: wrap;  transition: max-height 0.4s; }
+
+  .menulink_wrap:hover { max-height: 1600px;
+    }
+
+   .menulink_ul { width: 100%; max-height: 40px; overflow-y:hidden; margin: 0 0 20px 0;transition: max-height 0.4s;
+   }
+
+   .menulink_ul li {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      cursor: pointer;  
+   }
+  
+
+}
+
+@media screen and (max-width:446px) {
+   .hero_wrap_title h2 br {display: block;
+   
+   }
+}
